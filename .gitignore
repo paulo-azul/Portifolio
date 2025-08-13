@@ -1,0 +1,13 @@
+# Dependências
+node_modules/
+.next/
+out/
+
+# Arquivos grandes/binários
+*.exe
+*.node
+*.zip
+
+# Ambiente
+.env*
+.DS_Store

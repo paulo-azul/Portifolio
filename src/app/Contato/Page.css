@@ -1,0 +1,210 @@
+.header_sobre{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boi{
+    width: 408;
+    height: 20;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div_inheader{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.boi a, .boi h1 {
+   transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+
+.boi a:hover{
+    color: black;
+    text-shadow: 0 0 5px #8ab4f8,
+               0 0 10px #8ab4f8,
+               0 0 15px #8ab4f8;
+}
+
+
+.pagina_atual{
+    color: rgb(72, 72, 155);
+    text-decoration:underline;
+    text-underline-offset: 6px;
+}
+
+.div_social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.icone_social{
+    width: 32px;
+}
+
+
+.imgEu2{
+    border-radius: 50%;
+    width:30%;
+}
+
+.div_principal_ctt{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: space-around;
+}
+
+.div_contato1{
+    padding-top: 10%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.div_contato_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.contato_title{
+    font-size: 200%;
+    color: rgb(72, 72, 155);
+}
+
+.contato_dados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.cria{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.digito{
+    font-size: 18px;
+}
+
+.div_social2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.div_form_ctt{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-top: 7%;
+    min-width: 40%; 
+    border-radius: 5%;
+    margin-right: 10%;
+    text-align: start;
+    gap: 10px;
+}
+
+.div_nomectt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.input1{
+    background-color: white;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.form_pt2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.div_formDa{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input2{
+    background-color: white;
+    padding: 2%;
+    height: 45px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.msg_ctt{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.msg{
+    background-color: white;
+    padding: 2%;
+    height: 150px;
+    vertical-align: top;
+    text-align: initial;
+    border-radius: 10px;
+    resize: none;
+}
+
+.div_submit{
+    display: flex;
+    flex-direction: row;
+}
+
+.botão_submit{
+    background-color: rgba(229, 227, 227, 0.911);
+    height: fit-content;
+    border: solid;
+    width: fit-content;
+    margin-left: auto;
+    padding: 2%;
+    border-radius: 10px;
+    border-color: rgba(224, 223, 223, 0.808);
+    opacity: 0.6; 
+}
+
+.botao_submit_valido {
+  opacity: 1;
+  background-color: white;
+  border-color: white;
+}
+
+.data__ctt{
+    padding-bottom: 8.5px;
+}
+
+.erro_css{
+    align-self: center;
+}
+
+.cursor_loading {
+    cursor: progress; 
+}

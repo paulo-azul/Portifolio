@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+.header_sobre{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    justify-content: space-around; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.boi{
+    width: 408;
+    height: 20;
+    gap: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div_inheader{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.boi a, .boi h1 {
+   transition: color 0.5s ease, text-shadow 0.5s ease;
+}
+
+
+.boi a:hover{
+    color: black;
+    text-shadow: 0 0 5px #8ab4f8,
+               0 0 10px #8ab4f8,
+               0 0 15px #8ab4f8;
+}
+
+.pagina_atual{
+    color: rgb(72, 72, 155);
+    text-decoration:underline;
+    text-underline-offset: 6px;
+}
+
+.div_social{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.icone_social{
+    width: 32px;
+}
+
+.projects{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.uepa{
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    margin-bottom: -20px;
+}
+
+.tit_proj{
+    font-size: 60px;
+}
+
+.itsME{
+    max-width: 1400px;
+    margin: 0;
+    padding: 20px 0px;  
+    padding-bottom: 100px;
+}
+
+.div_slide{
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    align-items: flex-start;
+    overflow: hidden; 
+}
+
+.slide-de-projeto {
+    background-image: url('../img/astro.png');
+    height: 100%;
+    width: 70%;
+    clip-path: url(#minha-forma-curva);
+    -webkit-clip-path: url(#minha-forma-curva);
+    z-index: 1;
+    background-size: cover;
+    background-position: center;
+    margin-left: -100px;
+}
+
+.texto_slide{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    gap: 40px; 
+    max-width: 500px;
+    width: 100%; 
+    padding-right: 50px; 
+}
+
+.tit_slide{
+    color:  rgb(72, 72, 155);
+    font-family: EB Garamond;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    vertical-align: middle;
+    padding-top: 65px;
+}
+
+.tit_button{
+    background-color: black;
+    font-size: 20px;
+    color: white;
+    border-radius: 20px;
+    padding: 5px;
+    width: 200px;
+    text-align: center;
+}
+
+.swiper-pagination {
+  position: absolute;
+  bottom: 20px;       
+  right: -150px;
+  width: auto !important; 
+}
+
+.texto_slide2{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+    gap: 25px; 
+    max-width: 500px;
+    width: 100%; 
+    padding-right: 50px; 
+}
+
+.PROJETO_PAGE{
+    padding-bottom: 50px;
+}
